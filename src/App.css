@@ -24,3 +24,11 @@
   margin-right: 10px;
   background-color: white;
 }
+
+.box{
+  border: 1px solid black;
+  width: 80%;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 10%;
+}
