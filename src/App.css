@@ -1,34 +1,33 @@
-.main{
-  border: 2px solid black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  align-items: center;
-  margin: 20px auto;
-  width: 80%;
-  height: 90%;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main {
   text-align: center;
-  margin-top: 5px;
-  color:rgb(13, 78, 56);
-  background-color: rgb(112, 170, 112);
-  font-style: italic;
+  padding: 20px;
   font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(112, 170, 112);
+  min-height: 100vh;
 }
 
-.container{
-  border: 1px solid black;
-  padding: 5px;
-  height: 73%;
-  margin-left: 10px;
-  margin-right: 10px;
+.word {
+  font-family: 'Lobster', cursive;
+  color: rgb(13, 78, 56);
+}
+
+.draw-area {
+  border: 2px solid black;
+  margin: 20px auto;
+  display: block;
   background-color: white;
 }
 
-.box{
-  border: 1px solid black;
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #d1d1d1;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
   width: 80%;
-  justify-content: space-between;
-  text-align: center;
-  margin-left: 10%;
+  max-width: 600px;
 }
