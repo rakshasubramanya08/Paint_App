@@ -1,12 +1,68 @@
-# React + Vite
+## 🎨 Paint App
+The project was referenced from [Project Source](https://www.geeksforgeeks.org/reactjs/paint-app-using-reactjs/).
+This is a lightweight, browser-based drawing application built with **React** and **Vite**. It lets users draw freehand on a canvas, select different colors, clear the canvas, and interact with a minimal UI — all in real-time. The project was built by referencing open-source implementations and is designed to showcase interactive frontend development skills. It is included in my portfolio and resume to demonstrate my proficiency with HTML5 canvas, component-based architecture, and React state management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### ✨ Key Features
 
-Currently, two official plugins are available:
+- 🖌️ **Canvas Drawing** – Users can draw freeform strokes on the canvas using the mouse.
+- 🌈 **Color Picker** – Choose different stroke colors to draw with.
+- 🧹 **Clear Button** – Wipe the canvas clean with a single click.
+- ⚡ **Real-Time Feedback** – Instant updates as you draw, with no page reloads.
+- 🧩 **Modular Code** – Uses reusable components (`Menu.jsx`, etc.) for maintainability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – Component-based architecture for UI.
+- **Vite** – Fast bundler and dev server.
+- **HTML5 Canvas** – Core for rendering drawings.
+- **JavaScript / JSX** – Functional logic and interactivity.
+- **CSS** – Styling and layout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/Paint_App.git
+cd Paint_App
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Start the development server:**
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:  
+**`http://localhost:5173`**
+
+---
+
+## 🏗️ Building for Production
+
+To create an optimized build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+
+### 📌 Purpose
+
+This app was developed as a personal learning project to explore canvas-based rendering and React event handling. It serves as a demonstration of my ability to build intuitive, responsive interfaces and manage interactive user input. The code and structure were inspired by open-source references but custom-built for hands-on experience.
+
+---
